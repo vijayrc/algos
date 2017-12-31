@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'maven'
+
+dependencies{
+    compile 'org.scalatest:scalatest_2.11:2.2.4'
+    compile 'junit:junit:4.11'
+}
+
+repositories{
+    mavenCentral()
+}
+sourceCompatibility = '1.7'
